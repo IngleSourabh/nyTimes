@@ -6,11 +6,9 @@ import { Link } from "react-router-dom";
 
 const NewsCards = () => {
   const [newsData, setNewsData ] = useState([]);
-
-  const baseURL= `https://api.nytimes.com/svc/mostpopular/v2/viewed/7.json?`
-  const apiKey =`54wEynan3sCkO0gpCqfCGQAMY1AeX92Q`
-  // const app =process.env.API_KEY;
-  // console.log(app,"app");
+  const apiKey =process.env.REACT_APP_API_KEY;
+  const baseURL=process.env.REACT_APP_BASE_URL;
+  
   useEffect(() => {
     const fetchNewsApi = async () => {
       try {

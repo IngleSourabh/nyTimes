@@ -1,0 +1,60 @@
+.banner-style {
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    min-height: 10rem;
+    background-color: rgb(252, 219, 178);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .banner-heading {
+    color: rgb(156, 49, 11);
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 5rem;
+  }
+  .banner-sec {
+    color: rgb(43, 12, 2);
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .banner-desc {
+    color: rgb(43, 12, 2);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 600px) {
+    .banner-style {
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      padding-inline: 1rem;
+      margin-bottom: 1rem;
+    }
+    .banner-heading {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .banner-sec {
+      color: rgb(43, 12, 2);
+      font-size: 1.5rem;
+      font-weight: 500;
+      line-height: 2rem;
+      margin-bottom: 1rem;
+    }
+    .banner-desc {
+      font-size: 1.25rem;
+      font-weight: 500;
+      line-height: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+  

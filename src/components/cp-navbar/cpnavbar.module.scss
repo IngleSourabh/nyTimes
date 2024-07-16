@@ -1,0 +1,94 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid orangered;
+    margin-bottom:1rem;
+    padding-block: 1rem;
+   
+}
+
+.nav-links-wrap{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-links-wrap .link{
+    font-size: 1.5rem;
+    padding:0.5rem 1rem;
+    border-radius: .5rem;
+    color: orangered;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links-wrap .link:hover{
+    background-color: orangered;
+    color: #fff;
+}
+
+.mobile-menu{
+  display: none;
+  
+}
+.mobilogo{
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid orangered;
+}
+.nav-mobilinks-wrap{
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right:200%;
+  background-color: rgb(255, 244, 240);
+  transition: all 0.3s ease-in-out;
+  z-index: 11;
+  padding-top: 5rem;
+}
+.nav-mobilink{
+  text-align: center;
+  margin-block: 1rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding:1rem;
+ border-radius: 5px;
+  border: 1px solid orangered;
+
+}
+.mobilink{
+  color: orangered;
+}
+.backbtn{
+  position: absolute;
+  top:1rem;
+  right: 1rem;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  padding: .2rem .4rem;
+  color:orangered ;
+  font-weight: 500;
+}
+
+
+@media(max-width:600px){
+    .mobile-menu{
+        display: block;
+      }
+      .nav-links-wrap{
+        display: none;
+      }
+      .nav-mobilinks-wrap{
+        right:0%;
+        
+      }
+}
+
+
+
+
